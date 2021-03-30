@@ -7,6 +7,8 @@ In modern CPU architectures, which have deeply pipelined execution, calculating 
 
 The purpose of this project was to implement a simulation of a branch predictor based on published research and to achieve the lowest misprediction rate within a 64KB hardware budget. Each branch predictor design was evaluated against a common set of program traces, and the overall misprediction rate was recorded. My solution was based on the 2Bc-gskew-pskew branch predictor design described by Seznec and Michaud (1999), and it ultimately achieved the second best misprediction rate in the class of about a dozen students.
 
+<img width="600" alt="" src="2bc-gskew-pskew.png">
+
 References:
 - Original paper that described the 2Bc-gskew-pskew predictor: https://hal.inria.fr/inria-00073060/document
 - Further background on de-aliased branch predictors: http://meseec.ce.rit.edu/eecc722-fall2002/papers/branch-prediction/7/michaud97trading.pdf
